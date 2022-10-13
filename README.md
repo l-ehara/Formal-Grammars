@@ -7,7 +7,7 @@ Integrantes: Gabriel Spiandorello, Léo Falcão e Lucas Ehara</p>
 
 # Gerando Automatos
 
-   <h2>  <b> Relatório do trabalho prático 1 </b> </h2>   
+   <h1>  <b> Relatório do trabalho prático 1 </b> </h1>   
 
    <h2>Entrada de dados:</h2>
       <p> 
