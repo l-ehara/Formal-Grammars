@@ -1,36 +1,36 @@
-# Automatos-T1
+# Automata-T1
 
-<p>PUCRS/Escola Politécnica 2022/II <br>
-Linguagens, Autômatos e Computação (Turma 030) <br>
-Trabalho T1 <br>
-Integrantes: Gabriel Spiandorello, Léo Falcão e Lucas Ehara</p>
+<p>PUCRS/School of Engineering 2022/II <br>
+Languages, Automata and Computing (Class 030) <br>
+Assignment T1 <br>
+Members: Gabriel Spiandorello, Léo Falcão and Lucas Ehara</p>
 
-   <h1>  <b> Relatório do trabalho prático 1 </b> </h1>   
+   <h1>  <b> Report of Practical Assignment 1 </b> </h1>   
 
-   <h2>Entrada de dados:</h2>
+   <h2>Data Input:</h2>
       <p> 
-         Com base nas regras passadas, o usuário precisa informar quais vão ser os terminais e não terminais (limitado a no máximo 2 caracteres), o símbolo que engloba o conjunto de produções foi pré-definido como <b>P</b> e o símbolo de início das produções foi pré-definido como <b>S</b>.
+         Based on the given rules, the user needs to specify what will be the terminals and non-terminals (limited to a maximum of 2 characters), the symbol that encompasses the set of productions was predefined as <b>P</b> and the start symbol of the productions was predefined as <b>S</b>.
       </p>
 
-   <h2>Saída:</h2>
-      <p>Como pedido no enunciado do trabalho, o programa retorna o formalismo da gramática, testa se é válida ou não, retorna o tipo dela (Gramática regular ou gramática livre de contexto) e gera sentenças com base nas informações passadas na entrada de dados. </p> 
+   <h2>Output:</h2>
+      <p>As requested in the assignment statement, the program returns the formalism of the grammar, tests whether it is valid or not, returns its type (Regular Grammar or Context-Free Grammar) and generates sentences based on the information provided in the data input. </p> 
 
-   <h3>Exemplo de Entrada:</h3>	
+   <h3>Example of Input:</h3>	
       <p>
-      Não terminal: <b> A </b> <br>
+      Non-terminal: <b> A </b> <br>
       Terminal: <b> b </b> <br>
-      Gramática <b> não </b> aceita vazio<br>
+      Grammar <b> does not </b> accept empty<br>
       </p>
 
-   <h3>Exemplo de Saída:</h3>	
+   <h3>Example of Output:</h3>	
       <p>
       S -> bA | b <br>
       A -> bS  <br>
       </p>  
    
-   <h3>Exemplo de sentenças possíves:</h3>
+   <h3>Examples of possible sentences:</h3>
       <p>
          S -> bA -> bbS -> bbb <br>
          S -> b      <br>
-         <b>Tipo Gramática: Livre de contexto </b> <br>
+         <b>Type of Grammar: Context-Free </b> <br>
       </p>
